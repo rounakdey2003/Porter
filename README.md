@@ -226,6 +226,4 @@ This project is open source. Please ensure compliance with local laws and regula
 
 ---
 
-**Version**: 1.0  
-**Last Updated**: June 2025  
-**Built with**: Python, Streamlit, and ❤️
+**Made with ❤️ by [Rounak Dey](https://github.com/rounakdey2003)**
