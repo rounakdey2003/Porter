@@ -74,7 +74,7 @@ def save_scan_history(history):
     with open(history_file, 'w') as f:
         json.dump(history, f, indent=4)
 
-st.title("IP Port Scanner")
+st.title("Porter")
 st.markdown("---")
 
 st.sidebar.header("Scan Options")
