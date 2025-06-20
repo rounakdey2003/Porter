@@ -7,7 +7,7 @@ import json
 import os
 from datetime import datetime
 
-st.set_page_config(page_title="IP Port Scanner", layout="wide")
+st.set_page_config(page_title="IP Port Scanner", layout="wide", initial_sidebar_state='expanded')
 
 if 'scan_history' not in st.session_state:
     st.session_state.scan_history = []
