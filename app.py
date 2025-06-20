@@ -91,6 +91,11 @@ port_option = st.sidebar.radio(
 
 timeout = st.sidebar.slider("Timeout (seconds)", 0.1, 5.0, 1.0, 0.1)
 
+st.sidebar.divider()
+st.sidebar.page_link(page="https://github.com/rounakdey2003/Porter", label=":blue-background[:blue[Github]]",
+                     help='Teleport to Github',
+                     use_container_width=False)
+
 with st.container():
     st.subheader("Target Configuration")
     
